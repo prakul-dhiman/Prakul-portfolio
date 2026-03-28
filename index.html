@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-width=1.0">
+  <meta name="description" content="Prakul Dhiman - Computer Science student at LPU. MERN Stack Engineer & Problem Solver.">
+  <title>Prakul Dhiman | Developer Portfolio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Prakul<span class="accent">.dev</span></div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <canvas id="particle-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-up">
+        <h1 class="glow-text">Hi, I'm <span class="accent-text">Prakul Dhiman</span></h1>
+        <h2 class="typewriter-container">
+          <span class="typewriter"></span><span class="cursor-blink">|</span>
+        </h2>
+        <p class="subtext">
+          Building intelligent web experiences at the intersection of code and creativity. Pursuing B.Tech CSE at Lovely Professional University.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-download"></i> Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-decoration">
+        <div class="code-snippet glass-card glow-border" data-aos="zoom-in">
+          <div class="window-controls">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Prakul Dhiman'</span>,
+  <span class="property">role</span>: <span class="string">'Full Stack Engineer'</span>,
+  <span class="property">skills</span>: [<span class="string">'MERN'</span>, <span class="string">'C++'</span>, <span class="string">'AI API'</span>],
+  <span class="property">passion</span>: <span class="string">'Building cool sh*t'</span>
+};
+<span class="keyword">await</span> developer.<span class="method">initiate()</span>;</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <h2 class="section-title display-block" data-aos="fade-up">About Me</h2>
+      <div class="about-grid">
+        <div class="about-photo" data-aos="fade-right">
+          <div class="avatar-card glass-card outline-glow">
+            <div class="avatar-inner">
+              <span class="initials">PD</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-content" data-aos="fade-left">
+          <p class="about-desc">
+            I'm a Computer Science Engineering student at Lovely Professional University, passionate about building full-stack web applications and intelligent systems. I love turning complex problems into elegant solutions using the MERN stack and AI-powered tools.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-card glass-card">
+              <h3>2+</h3>
+              <p>Projects</p>
+            </div>
+            <div class="stat-card glass-card">
+              <h3>100+</h3>
+              <p>DSA Problems</p>
+            </div>
+            <div class="stat-card glass-card">
+              <h3>4★</h3>
+              <p>HackerRank</p>
+            </div>
+            <div class="stat-card glass-card">
+              <h3>3</h3>
+              <p>Certificates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section-padding">
+    <div class="container">
+      <h2 class="section-title display-block" data-aos="fade-up">Tech Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="category-title">Languages</h3>
+          <div class="pill-container">
+            <span class="skill-pill"><i class="fa-solid fa-code"></i> C++</span>
+            <span class="skill-pill"><i class="fa-brands fa-java"></i> Java</span>
+            <span class="skill-pill"><i class="fa-brands fa-python"></i> Python</span>
+            <span class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="category-title">Web</h3>
+          <div class="pill-container">
+            <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class="skill-pill"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> RESTful APIs</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+          <h3 class="category-title">Frameworks</h3>
+          <div class="pill-container">
+            <span class="skill-pill"><i class="fa-brands fa-react"></i> React.js</span>
+            <span class="skill-pill"><i class="fa-brands fa-node-js"></i> Node.js</span>
+            <span class="skill-pill"><i class="fa-solid fa-server"></i> Express.js</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+          <h3 class="category-title">Databases</h3>
+          <div class="pill-container">
+            <span class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</span>
+            <span class="skill-pill"><i class="fa-brands fa-envira"></i> MongoDB</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+          <h3 class="category-title">Tools</h3>
+          <div class="pill-container">
+            <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="skill-pill"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="skill-pill"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+            <span class="skill-pill"><i class="fa-solid fa-code"></i> VS Code</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+          <h3 class="category-title">Concepts</h3>
+          <div class="pill-container">
+            <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> DSA</span>
+            <span class="skill-pill"><i class="fa-solid fa-cube"></i> OOP</span>
+            <span class="skill-pill"><i class="fa-solid fa-server"></i> DBMS</span>
+            <span class="skill-pill"><i class="fa-brands fa-linux"></i> OS</span>
+            <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> CN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section-padding">
+    <div class="container">
+      <h2 class="section-title display-block" data-aos="fade-up">Featured Projects</h2>
+      
+      <div class="project-list">
+        <!-- Project 1 -->
+        <div class="project-card glass-card hover-glow" data-aos="fade-up">
+          <div class="project-badges">
+            <span class="badge featured">🔥 Featured Project</span>
+            <span class="badge date">Jan 2026 – Present</span>
+          </div>
+          <h3 class="project-title">IntelliHire – AI-Powered Interview Platform</h3>
+          <p class="project-desc">
+            An intelligent candidate evaluation platform combining resume insights, AI-powered coding tests, and interview scoring. Features real-time code execution, dynamic leaderboards, and role-based access control.
+          </p>
+          <ul class="project-highlights">
+            <li><i class="fa-solid fa-arrow-trend-up"></i> Improved assessment accuracy by ~45%</li>
+            <li><i class="fa-solid fa-bolt"></i> Reduced evaluation time by ~60% with Judge0 API</li>
+            <li><i class="fa-solid fa-clock"></i> Decreased shortlisting time by ~35%</li>
+          </ul>
+          <div class="tech-stack">
+            <span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span><span>Tailwind CSS</span><span>Judge0 API</span><span>OpenAI API</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub ↗</a>
+            <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link-alt"></i> Live Demo ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card hover-glow" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-badges">
+            <span class="badge date">Oct 2025 – Dec 2025</span>
+          </div>
+          <h3 class="project-title">JobPortal – Full-Stack Recruitment Platform</h3>
+          <p class="project-desc">
+            A complete recruitment platform supporting 200+ job postings and 500+ monthly applications with secure authentication and cloud media handling.
+          </p>
+          <ul class="project-highlights">
+            <li><i class="fa-solid fa-users"></i> Supports 200+ job postings & 500+ monthly applications</li>
+            <li><i class="fa-solid fa-shield-halved"></i> Role-based access with secure JWT authentication</li>
+            <li><i class="fa-solid fa-cloud"></i> Cloud-based media with Cloudinary integration</li>
+          </ul>
+          <div class="tech-stack">
+            <span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span><span>Tailwind CSS</span><span>Multer</span><span>Cloudinary</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training & Certifications -->
+  <section id="certifications" class="certifications section-padding">
+    <div class="container">
+      <h2 class="section-title display-block" data-aos="fade-up">Training & Certifications</h2>
+      <div class="cert-grid">
+        <!-- Training -->
+        <div class="training-col" data-aos="fade-right">
+          <h3 class="col-title"><i class="fa-solid fa-chalkboard-user"></i> Training</h3>
+          <div class="timeline">
+            <div class="timeline-item glass-card">
+              <div class="timeline-dot"></div>
+              <h4>DSA with C++ <span class="timeline-date">Jun–Jul 2025</span></h4>
+              <p>Covered arrays, trees, graphs, DP, greedy algorithms. Solved problems across multiple paradigms.</p>
+            </div>
+          </div>
+          
+          <div class="achievements-mini" style="margin-top: 3rem;">
+            <h3 class="col-title"><i class="fa-solid fa-trophy"></i> Achievements</h3>
+            <div class="achievement-cards">
+              <div class="ach-card glass-card hover-lift">
+                <i class="fa-solid fa-bolt ach-icon text-yellow"></i>
+                <div class="ach-info">
+                  <h4 class="counter" data-target="100">0</h4>
+                  <p>+ Problems on LeetCode & GFG</p>
+                </div>
+              </div>
+              <div class="ach-card glass-card hover-lift">
+                <i class="fa-solid fa-star ach-icon text-yellow"></i>
+                <div class="ach-info">
+                  <h4 class="counter" data-target="4">0</h4>
+                  <p>Star Gold Rating on HackerRank</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certs -->
+        <div class="cert-col" data-aos="fade-left">
+          <h3 class="col-title"><i class="fa-solid fa-certificate"></i> Certifications</h3>
+          <div class="cert-cards">
+            <div class="cert-card glass-card hover-glow">
+              <div class="cert-header">
+                <i class="fa-solid fa-award"></i>
+                <span>Dec 2025</span>
+              </div>
+              <h4>SQL (Intermediate)</h4>
+              <p class="issuer">HackerRank</p>
+            </div>
+            
+            <div class="cert-card glass-card hover-glow">
+              <div class="cert-header">
+                <i class="fa-solid fa-award"></i>
+                <span>Aug 2025</span>
+              </div>
+              <h4>ChatGPT-4 Prompt Engineering</h4>
+              <p class="issuer">Infosys</p>
+            </div>
+            
+            <div class="cert-card glass-card hover-glow">
+              <div class="cert-header">
+                <i class="fa-solid fa-award"></i>
+                <span>May 2025</span>
+              </div>
+              <h4>Java Programming</h4>
+              <p class="issuer">IamNeo</p>
+            </div>
+            
+            <div class="cert-card glass-card hover-glow">
+              <div class="cert-header">
+                <i class="fa-solid fa-award"></i>
+                <span>Apr 2025</span>
+              </div>
+              <h4>Cloud Computing</h4>
+              <p class="issuer">NPTEL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <h2 class="section-title display-block text-center" data-aos="fade-up">Let's Build Something Together</h2>
+      
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <div class="contact-card glass-card hover-lift">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:prakul.dhiman85@gmail.com">prakul.dhiman85@gmail.com</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-card glass-card hover-lift">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h3>Phone</h3>
+              <p><a href="tel:+916230543790">+91 6230543790</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-card glass-card hover-lift">
+            <i class="fa-brands fa-linkedin"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <p><a href="https://www.linkedin.com/in/prakul58" target="_blank">in/prakul58</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-card glass-card hover-lift">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <h3>GitHub</h3>
+              <p><a href="https://github.com/prakul-dhiman" target="_blank">prakul-dhiman</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form glass-card outline-glow">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Hi Prakul, I'd like to talk about..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">Prakul<span class="accent">.dev</span></div>
+      <p>Designed & Built by Prakul Dhiman &copy; 2026</p>
+      <div class="social-links">
+        <a href="https://github.com/prakul-dhiman" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/prakul58" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
