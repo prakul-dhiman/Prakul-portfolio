@@ -13,12 +13,7 @@ export default defineConfig({
     }
   },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'] // framer-motion is minimal since I removed it from 90% of components, maybe leave it here if we want to chunk it.
-        }
-      }
-    }
+    // Vite 8 handles chunking effectively by default for small/medium apps
+    // Removing the explicit object-based manualChunks to fix Rollup 4+ type warnings
   }
 })
