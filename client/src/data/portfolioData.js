@@ -69,7 +69,7 @@ export const portfolioData = {
     }
   ],
   certifications: [
-    { name: "SQL Intermediate", issuer: "HackerRank", date: "Dec 2025", url: "https://www.hackerrank.com" },
+    { name: "SQL Intermediate", issuer: "HackerRank", date: "Dec 2025", url: "https://www.hackerrank.com/certificates/659340783b4e" },
     { name: "ChatGPT Prompt Engineering", issuer: "Infosys", date: "Aug 2025", url: "https://drive.google.com/file/d/1U21GaTzEyErnYYZoQJFvY3CnyjHwTI0T/view?usp=sharing" },
     { name: "Java Programming", issuer: "IamNeo", date: "May 2025", url: "https://drive.google.com/file/d/1UMaW_5yfcSy5kka7wlfKg1xfYpoe0TJi/view?usp=sharing" },
     { name: "Cloud Computing", issuer: "NPTEL", date: "Apr 2025", url: "https://drive.google.com/file/d/1D7Z71gC6wzOIYd76Pd_zcAVhl6zyAosu/view" }
